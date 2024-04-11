@@ -116,6 +116,11 @@ h2 {
     width: 100%;
 }
 
+.product-item-img{
+    margin: 5px 0px 0px 0px;
+    height: 350px
+}
+
 .product-item-detail-title{
     color: white;
     margin: 5px 0px 0px 0px;
