@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/stilos.css">
+
+    <link rel="stylesheet" href="./static/img/pexels-karolina-grabowska-8003584.jpg">
+
+    <link rel="icon" href="./static/img/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+
+    <!-- Script de Fontawesome -->
+    <script src="https://kit.fontawesome.com/53b92063da.js" crossorigin="anonymous"></script>
+
+
+    <title>Libreria Zzenoba</title>
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+
+        <nav>
+            <!-- Logo -->
+            <div id="logo">
+                <a href="/">
+                    <!-- Mas adelante se aplicaran estilos especificos al texto y se agregara un icono -->
+                    <i class="fa-solid fa-house"></i>
+                    <span class="logo-text">Libreria Zzenoba</span>
+                </a>
+            </div>
+
+            <!-- Hipervinculos del menu -->
+            <ul class="nav-links">
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="./templates/register.html">Registrate</a></li>
+                <li><a class="btn-lib" href="#">
+                        <i class="fa-solid fa-right-to-bracket fa-beat-fade"></i>
+                        <span class="login-text">Iniciar Sesion</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Banner -->
+        <section id="banner">
+            <div class="container card-banner">
+                <h1>Fotocopias, impresion, articulos de libreria y mucho mas.</h1>
+                <h2>Todo lo que buscas lo encontras en Libreria Zzenoba. </h2>
+                <a href="./templates/register.html" class="btn-lib">Registrate</a>
+            </div>
+        </section>
+
+        <!-- Search -->
+        <section id="search" class="container">
+
+            <h2 class="search-title">Buscar producto</h2>
+            <input type="text" class="input-search" placeholder="Buscar...">
+        </section>
+
+
+        <section id="productos">
+            <!-- Division contenedora del titulo e imagenes -->
+            <div class="container">
+                <h2>Productos Destacados</h2>
+                <div id="list-product">
+                    <div class="product-item">
+                        <a href="./templates/productos.html">
+                            <img src="./" alt="Mochila" class="product-item-img">
+                            <div class="product-item-detail">
+                                <p class="product-item-detail-title">Mochila 16"</p>
+                                <p class="pruduct-item-detail-precio">$20.000</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos en Oferta -->
+        <section id="product-of">
+            <!-- Division contenedora del titulo e imagenes -->
+            <div class="container">
+                <h2>Productos en Oferta</h2>
+                <div id="list-product-of">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Ayuda</a>
+        <link rel="" href="">
+
+    </footer>
+
+</body>
+
+</html>
