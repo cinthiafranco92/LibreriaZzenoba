@@ -103,6 +103,11 @@ h2 {
     outline: none;
 }
 
+.search-title-product{
+    
+}
+
+
 .product-item-detail{
     bottom: -100%;
     padding: 30px;
@@ -131,6 +136,10 @@ h2 {
     color: white;
     font-size: 8px;
     margin: 3px 0px;
+}
+
+.product-item-detail-precio::after{
+    content: '🤑';
 }
 
 #list-product{
@@ -198,10 +207,6 @@ h2 {
 
 .product-item:hover .product-item-detail{
     bottom: 0;
-}
-
-.product-item-detail-precio::after{
-    content: '🤑';
 }
 
 #footer a{
