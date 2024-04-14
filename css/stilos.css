@@ -327,13 +327,13 @@ h2 {
     text-align: center;
 }
 
-.form-terms{
+/* .form-terms{
     padding: 10px 0px;
     margin: auto;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
+} */
 
 .form-help{
     padding: 10px 0px;
@@ -351,5 +351,5 @@ h2 {
 #btn-registro{
     cursor: pointer;
     text-align: center;
-    margin: auto;  
+    margin: 5% 50%;      
 }
